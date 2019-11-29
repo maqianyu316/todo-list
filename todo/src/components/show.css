@@ -2,95 +2,95 @@
  * @Description: 
  * @Author: xiaoma
  * @Date: 2019-11-27 21:04:21
- * @LastEditTime: 2019-11-29 10:48:58
+ * @LastEditTime: 2019-11-29 16:26:13
  * @LastEditors: xiaoma
  */
 .list {
-    margin: 25px;
-    margin-top: 0;
-    margin-bottom: 0;
+  margin: 25px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
-.list-group-item {   
-    border-radius: 3px;
+.list-group-item {
+  border-radius: 3px;
 }
-li{
-    font-size: 1.2em;
-    transition: color 0.3s
+li {
+  font-size: 1.2em;
+  transition: color 0.3s;
 }
 li:hover {
-    font-weight: bold;
-    cursor: pointer;
+  font-weight: bold;
+  cursor: pointer;
 }
 /*单项删除*/
-.glyphicon-remove{
-    display: inline-block;
-    position: absolute;
-    right:30px;
-    color: rgba(0, 0, 0, 0.1);
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    padding: 3px;
+.glyphicon-remove {
+  display: inline-block;
+  position: absolute;
+  right: 30px;
+  color: rgba(0, 0, 0, 0.1);
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  padding: 3px;
 }
-.glyphicon-remove:hover{  
-    color: rgb(241, 37, 37);  
-    cursor: pointer;
+.glyphicon-remove:hover {
+  color: rgb(241, 37, 37);
+  cursor: pointer;
 }
 /*单项完成*/
-.glyphicon-ok{
-    display: inline-block;
-    position: absolute;
-    right:0;
-    color: rgba(0, 0, 0, 0.1);
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    padding: 3px;
+.glyphicon-ok {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  color: rgba(0, 0, 0, 0.1);
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  padding: 3px;
 }
-.glyphicon-ok:hover{  
-    color: rgb(9, 156, 41);  
-    cursor: pointer;
+.glyphicon-ok:hover {
+  color: rgb(9, 156, 41);
+  cursor: pointer;
 }
 /*单项撤销完成*/
-.glyphicon-share-alt{
-    display: inline-block;
-    position: absolute;
-    right:0;
-    color: rgba(0, 0, 0, 0.1);
-    width: 20px;
-    height: 20px;
-    margin: 10px;
-    padding: 3px;
+.glyphicon-share-alt {
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  color: rgba(0, 0, 0, 0.1);
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+  padding: 3px;
 }
-.glyphicon-share-alt:hover{  
-    color: rgb(9, 156, 41);  
-    cursor: pointer;
+.glyphicon-share-alt:hover {
+  color: rgb(9, 156, 41);
+  cursor: pointer;
 }
 /*全部完成*/
 .glyphicon-check {
-    display: inline-block;
-    position: relative;
-    top: -5px;
-    left: 94%;
-    color: rgba(0, 0, 0, 0.1);
-    width: 20px;
-    height: 20px;
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  left: 94%;
+  color: rgba(0, 0, 0, 0.1);
+  width: 20px;
+  height: 20px;
 }
-.glyphicon-check:hover{  
-    color: rgb(9, 156, 41);  
-    cursor: pointer;
+.glyphicon-check:hover {
+  color: rgb(9, 156, 41);
+  cursor: pointer;
 }
 /*全部完成的撤销*/
 .glyphicon-share {
-    display: inline-block;
-    position: relative;
-    top: -5px;
-    left: 94%;
-    color: rgba(0, 0, 0, 0.1);
-    width: 20px;
-    height: 20px;
+  display: inline-block;
+  position: relative;
+  top: -5px;
+  left: 94%;
+  color: rgba(0, 0, 0, 0.1);
+  width: 20px;
+  height: 20px;
 }
-.glyphicon-share:hover{  
-    color: rgb(9, 156, 41);  
-    cursor: pointer;
+.glyphicon-share:hover {
+  color: rgb(9, 156, 41);
+  cursor: pointer;
 }

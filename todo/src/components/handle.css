@@ -2,58 +2,57 @@
  * @Description: 
  * @Author: xiaoma
  * @Date: 2019-11-27 20:20:39
- * @LastEditTime: 2019-11-29 15:15:16
+ * @LastEditTime: 2019-11-29 16:26:24
  * @LastEditors: xiaoma
  */
-.wrap{
-    margin:15px;
-    padding: 20px;
+.wrap {
+  margin: 15px;
+  padding: 20px;
 }
-.button{
-    position:relative;
-    right:0;
-    margin:auto;
+.button {
+  position: relative;
+  right: 0;
+  margin: auto;
 }
 button {
-    position: absolute;
-    right: 0;
-    margin-top: 2px;
+  position: absolute;
+  right: 0;
+  margin-top: 2px;
 }
 .input-group-addon {
-    color: #888;
+  color: #888;
 }
 /*input的placeholder*/
-.form-control::input-placeholder{
-    color:rgba(0,0,0,0.2);
-    font-size: 1.2em;
-    font-style: italic;
-    font-weight: bold
+.form-control::input-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
 }
 .form-control::-webkit-input-placeholder {
-    color:rgba(0,0,0,0.2);
-    font-size: 1.2em;
-    font-style: italic;
-    font-weight: bold
-   
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
 }
 /*  Mozilla Firefox */
 .form-control:-moz-placeholder {
-    color:rgba(0,0,0,0.2);
-    font-size: 1.2em;
-    font-style: italic;
-    font-weight: bold
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
 }
 /* Mozilla Firefox 19+  */
-.form-control::-moz-placeholder { 
-    color:rgba(0,0,0,0.2);
-    font-size: 1.2em;
-    font-style: italic;
-    font-weight: bold
+.form-control::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
 }
 /* IE10 */
 .form-control:-ms-input-placeholder {
-    color:rgba(0,0,0,0.2);
-    font-size: 1.2em;
-    font-style: italic;
-    font-weight: bold
+  color: rgba(0, 0, 0, 0.2);
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
 }
